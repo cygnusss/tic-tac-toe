@@ -1,0 +1,20 @@
+.game {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  width: 30rem;
+}
+
+.game div {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+.active {
+  background-color: black;
+}
+
+.proactive {
+  background-color: red;
+}
